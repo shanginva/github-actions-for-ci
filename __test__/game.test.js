@@ -21,8 +21,8 @@ describe('Game', () => {
 
   describe('Game', () => {
     it('Initializes with two players', async () => {
-      expect(game.p1).toBe('Salem')
       expect(game.p2).toBe('Nate')
+      expect(game.p1).toBe('Salem')
     })
 
     it('Initializes with an empty board', async () => {
